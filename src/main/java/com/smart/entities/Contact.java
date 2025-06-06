@@ -13,7 +13,7 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
-@Table(name="CONTACT")
+@Table(name="contact")
 public class Contact implements Serializable
 {
 	private static final long serialVersionUID = -8309875615397206539L;
